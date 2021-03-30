@@ -44,8 +44,8 @@ class DataSheet():
     def format(self):
         """格式化相应位置"""
         begin = 1
-        max_cols = 16
-        max_rows = 202
+        max_cols = self.rows + 1
+        max_rows = self.columns + 2
         thin_border = openpyxl.styles.Border(
                       left = openpyxl.styles.Side(style = 'thin'),
                       right = openpyxl.styles.Side(style = 'thin'),
