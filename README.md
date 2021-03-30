@@ -3,8 +3,9 @@
 需要准备的包(package)：
 
 ```bash
-# 使用pip下载openpyxl
+# 使用pip下载 openpyxl和numpy
 $ pip install openpyxl
+$ pip install numpy
 ```
 
 执行方法：
